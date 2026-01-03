@@ -10,16 +10,8 @@ const CustomerDashboard =() => {
         setRestaurants(getRestaurants());
     },[]);
     return (
-        <div>
-            <h2>Customer Dshboard</h2>
-            {restaurants.map((r) => (
-                <div key ={r.restaurantID}>
-                    <h4>{r.restaurantNmae}</h4>
-                    <p>{r.address}</p>
-                    </div>
-            ))}
-       
-    );
-};
+
+    )
+}
 
 export default CustomerDashboard;
